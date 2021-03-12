@@ -38,19 +38,26 @@ body {
   font-family: "Nunito Sans", sans-serif;
   background: #FFFFFF;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1160px;
 }
 
 .header {
   margin: 0;
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-}
-.header__container {
+  padding-top: 32px;
+  padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  width: 1160px;
 }
 .header__logo {
   font-family: "Unkempt", sans-serif;
@@ -88,12 +95,10 @@ body {
 
 .start {
   margin: 0;
-  margin-top: 31px;
+  padding-top: 15px;
   display: flex;
   justify-content: center;
-}
-.start__container {
-  display: flex;
+  width: 100%;
   align-items: center;
 }
 .start__title {
@@ -140,10 +145,8 @@ body {
 .life {
   display: flex;
   justify-content: center;
-  margin-bottom: 213px;
-}
-.life__container {
-  display: flex;
+  padding-bottom: 113px;
+  width: 100%;
   align-items: center;
 }
 .life__img {
@@ -168,7 +171,10 @@ body {
 .features {
   display: flex;
   justify-content: center;
-  margin-bottom: 103px;
+  padding-bottom: 53px;
+  padding-top: 100px;
+  width: 100%;
+  flex-direction: column;
 }
 .features__title {
   text-align: center;
@@ -189,6 +195,7 @@ body {
 }
 .features__row {
   display: flex;
+  justify-content: center;
 }
 .features__text {
   margin: 0;
@@ -221,10 +228,9 @@ body {
 .feedback {
   display: flex;
   justify-content: center;
-  margin-left: 20px;
-}
-.feedback__container {
-  display: flex;
+  padding-left: 20px;
+  padding-top: 50px;
+  width: 100%;
   align-items: center;
 }
 .feedback__info {
@@ -261,14 +267,9 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  margin-bottom: 62px;
-}
-.footer__container {
-  display: flex;
+  padding-bottom: 62px;
+  width: 100%;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 1160px;
 }
 .footer__head {
   display: flex;

@@ -1,16 +1,11 @@
 .header {
     margin: 0;
-    margin-top: 32px;
+    padding-top: 32px;
+    padding-bottom: 16px;
     display: flex;
-    justify-content: center;
-
-
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 1160px;
-    }
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 
     &__logo {
         font-family: 'Unkempt', sans-serif;

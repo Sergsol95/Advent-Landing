@@ -1,8 +1,10 @@
 .features {
     display: flex;
     justify-content: center;
-    margin-bottom: 103px;
-
+    padding-bottom: 53px;
+    padding-top: 100px;
+    width: 100%;
+    flex-direction: column;
 
     &__title {
         text-align: center;
@@ -25,6 +27,7 @@
 
     &__row {
         display: flex;
+        justify-content: center;
     }
 
     &__text {

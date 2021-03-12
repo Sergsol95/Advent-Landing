@@ -1,15 +1,9 @@
 .footer {
     display: flex;
     justify-content: center;
-    margin-bottom: 62px;
-
-    &__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 1160px;
-    }
+    padding-bottom: 62px;
+    width: 100%;
+    flex-direction: column;
 
     &__head {
         display: flex;

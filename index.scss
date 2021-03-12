@@ -10,8 +10,11 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     background: $white;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
 }
 
+@import "./src/styles/page";
 @import "./src/styles/header";
 @import "./src/styles/start";
 @import "./src/styles/btn";

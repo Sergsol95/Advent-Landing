@@ -1,13 +1,10 @@
 .life {
     display: flex;
     justify-content: center;
-    margin-bottom: 213px;
+    padding-bottom: 113px;
+    width: 100%;
+    align-items: center;
 
-
-    &__container {
-        display: flex;
-        align-items: center;
-    }
 
     &__img {
         margin-right: 100px;
