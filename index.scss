@@ -1,0 +1,21 @@
+@import "./src/styles/fonts";
+@import "./src/styles/variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: $white;
+    font-size: 16px;
+}
+
+@import "./src/styles/header";
+@import "./src/styles/start";
+@import "./src/styles/btn";
+@import "./src/styles/life";
+@import "./src/styles/features";
+@import "./src/styles/feedback";
+@import "./src/styles/footer";

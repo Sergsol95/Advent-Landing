@@ -1,0 +1,33 @@
+.life {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 213px;
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        margin-right: 100px;
+    }
+
+    &__description {
+        width: 560px;
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    margin: 0;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1160px;
+    }
+
+    &__logo {
+        font-family: 'Unkempt', sans-serif;
+        margin: 0;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 57px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 2px;
+            width: 53px;
+            height: 53px;
+            background: $lightgreen;
+            z-index: -1;
+            border-radius: 50%;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        padding-right: 36px;
+        color: $black;
+
+        &:nth-child(3) {
+            border-right: 1px solid $bgrey;
+        }
+
+    }
+
+    &__contact {
+        text-decoration: none;
+        padding-left: 36px;
+        color: $black;
+        font-weight: 600;
+    }
+}

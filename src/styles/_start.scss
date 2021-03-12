@@ -1,0 +1,33 @@
+.start {
+    margin: 0;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 16px;
+    }
+
+    &__description {
+        width: 431px;
+        margin-right: 80px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 48px;
+    }
+
+    
+}
