@@ -3,6 +3,7 @@
     justify-content: center;
     padding-bottom: 53px;
     padding-top: 100px;
+    padding-bottom: 142px;
     width: 100%;
     flex-direction: column;
 
@@ -11,7 +12,6 @@
         margin: 0;
         font-weight: bold;
         font-size: 36px;
-        line-height: 49px;
         position: relative;
         margin-bottom: 48px;
 
@@ -21,19 +21,20 @@
             margin: 0 auto;
             width: 60px;
             padding-top: 48px;
-            border-bottom: 3px solid $orange;
+            border-bottom: 2px solid $orange;
         }
     }
 
     &__row {
         display: flex;
         justify-content: center;
+        align-items: flex-start;
     }
 
     &__text {
         margin: 0;
         font-size: 18px;
-        line-height: 25px;
+        padding-top: 4px
     }
 
     &__description {
@@ -60,6 +61,5 @@
         margin: 0;
         font-weight: bold;
         font-size: 26px;
-        line-height: 35px;
     }
 }

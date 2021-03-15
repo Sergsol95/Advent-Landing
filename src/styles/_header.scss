@@ -1,48 +1,27 @@
 .header {
     margin: 0;
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 
-    &__logo {
-        font-family: 'Unkempt', sans-serif;
-        margin: 0;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 57px;
-        position: relative;
-
-        &::before {
-            content: "";
-            position: absolute;
-            left: -10px;
-            top: 2px;
-            width: 53px;
-            height: 53px;
-            background: $lightgreen;
-            z-index: -1;
-            border-radius: 50%;
-        }
-    }
 
     &__link {
         text-decoration: none;
-        padding-right: 36px;
+        margin-right: 36px;
         color: $black;
 
-        &:nth-child(3) {
-            border-right: 1px solid $bgrey;
-        }
+
 
     }
 
     &__contact {
         text-decoration: none;
         padding-left: 36px;
+        border-left: 1px solid $bgrey;
         color: $black;
-        font-weight: 600;
+        font-weight: 500;
     }
 }
