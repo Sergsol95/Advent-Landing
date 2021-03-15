@@ -1,35 +1,35 @@
 .feedback {
     display: flex;
     justify-content: center;
-    padding: 142px 0;
+    padding: 14.2rem 0;
     width: 100%;
     align-items: center;
 
     &__info {
-        max-width: 560px;
+        max-width: 56rem;
         width: 100%;
     }
 
     &__description {
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
     }
 
     &__title {
         margin: 0;
         font-weight: bold;
-        font-size: 36px;
-        margin-bottom: 15px;
+        font-size: 3.6rem;
+        margin-bottom: 1.5rem;
     }
 
     &__text {
         margin: 0;
-        font-size: 20px;
+        font-size: 2rem;
         color: $grey;
     }
 
     &__img {
         position: relative;
-        left: 85px;
+        left: 8.5rem;
     }
 }
 
@@ -38,12 +38,12 @@
 
     &__input {
         font-weight: 300;
-        font-size: 20px;
-        padding: 12px 15px;
+        font-size: 2rem;
+        padding: 1.2rem 1.5rem;
         border: 1px solid rgba($color: $bordergrey, $alpha: 1);
         border-radius: 8px;
-        margin-right: 10px;
-        min-height: 51px;
+        margin-right: 1rem;
+        min-height: 5.1rem;
         display: flex;
 
 

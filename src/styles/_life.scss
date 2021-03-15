@@ -1,16 +1,16 @@
 .life {
     display: flex;
     justify-content: space-between;
-    padding-top: 73px;
-    padding-bottom: 113px;
+    padding-top: 7.3rem;
+    padding-bottom: 11.3rem;
     width: 100%;
     align-items: center;
 
 
     &__img {
-        margin-right: 100px;
+        margin-right: 10rem;
         position: relative;
-        left: -27px;
+        left: -2.7rem;
     }
 
     &__description {
@@ -21,12 +21,12 @@
     &__title {
         margin: 0;
         font-weight: bold;
-        font-size: 36px;
-        margin-bottom: 8px;
+        font-size: 3.6rem;
+        margin-bottom: 0.8rem;
     }
 
     &__text {
         margin: 0;
-        font-size: 20px;
+        font-size: 2rem;
     }
 }
