@@ -1,34 +1,35 @@
 .footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 62px;
+    padding-bottom: 4.6rem;
+    padding-top: 8.5rem;
     width: 100%;
     flex-direction: column;
+
 
     &__head {
         display: flex;
         width: 100%;
         align-items: center;
         justify-content: space-between;
-        padding-bottom: 25px;
-        border-bottom: 2px solid rgba($color: $grey, $alpha: 0.1);
+        padding-bottom: 2.5rem;
+        border-bottom: 2px solid rgba($color: $bordergrey, $alpha: 0.5);
     }
 
     &__logo {
         font-family: 'Unkempt', sans-serif;
         margin: 0;
         font-weight: bold;
-        font-size: 48px;
-        line-height: 57px;
+        font-size: 4.8rem;
         position: relative;
 
         &::before {
             content: "";
             position: absolute;
-            left: -10px;
-            top: 2px;
-            width: 53px;
-            height: 53px;
+            left: -1rem;
+            top: 0.2rem;
+            width: 5.3rem;
+            height: 5.3rem;
             background: $lightgreen;
             z-index: -1;
             border-radius: 50%;
@@ -38,11 +39,10 @@
     &__nav-item {
         text-decoration: none;
         color: $black;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 1.6rem;
 
         &:not(:last-child) {
-            padding-right: 41px;
+            margin-right: 4.1rem;
         }
     }
 
@@ -51,12 +51,11 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 4rem;
     }
 
     &__copyright {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1.6rem;
         color: rgba($color: $grey, $alpha: 0.6);
     }
 }
@@ -64,9 +63,10 @@
 .socials {
 
     &__link {
+        padding: 1rem;
 
         &:not(:last-child) {
-            margin-right: 37px;
+            margin-right: 2.7rem;
         }
     }
 }

@@ -1,0 +1,19 @@
+.logo {
+    font-family: 'Unkempt', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 2px;
+        width: 53px;
+        height: 53px;
+        background: $lightgreen;
+        z-index: -1;
+        border-radius: 50%;
+    }
+}

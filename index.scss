@@ -5,16 +5,29 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
     background: $white;
-    font-size: 16px;
+    line-height: normal;
     display: flex;
     justify-content: center;
+
+    p {
+        margin: 0
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin: 0;
+    }
 }
 
 @import "./src/styles/page";
+@import "./src/styles/logo";
 @import "./src/styles/header";
 @import "./src/styles/start";
 @import "./src/styles/btn";
