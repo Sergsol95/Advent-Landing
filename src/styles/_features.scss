@@ -1,9 +1,11 @@
 .features {
     display: flex;
     padding-top: 10rem;
-    padding-bottom: 14.2rem;
+    padding-bottom: 15rem;
     width: 100%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__title {
         text-align: center;
@@ -12,6 +14,8 @@
         font-size: 3.6rem;
         position: relative;
         margin-bottom: 4.8rem;
+        max-width: 90rem;
+        width: 100%;
 
         &::after {
             content: "";
@@ -19,7 +23,7 @@
             margin: 0 auto;
             width: 6rem;
             padding-top: 4.8rem;
-            border-bottom: 0.2rem solid $orange;
+            border-bottom: 2px solid $orange;
         }
     }
 
@@ -32,7 +36,7 @@
     &__text {
         margin: 0;
         font-size: 1.8rem;
-        padding-top: 0.4rem;
+        margin-top: 0.4rem;
     }
 
     &__description {

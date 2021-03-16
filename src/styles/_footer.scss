@@ -1,8 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 4.6rem;
-    padding-top: 8.5rem;
+    padding: 6.2rem 0;
     width: 100%;
     flex-direction: column;
 
@@ -61,6 +60,8 @@
 }
 
 .socials {
+    display: flex;
+    align-items: center;
 
     &__link {
         padding: 1rem;

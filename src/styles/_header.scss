@@ -1,7 +1,6 @@
 .header {
     margin: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -10,18 +9,19 @@
 
     &__link {
         text-decoration: none;
-        margin-right: 36px;
         color: $black;
+        font-size: 1.6rem;
 
+        &:not(:last-child){
+            margin-right: 36px;
+        }
 
-
-    }
-
-    &__contact {
-        text-decoration: none;
-        padding-left: 36px;
-        border-left: 1px solid $bgrey;
-        color: $black;
-        font-weight: 500;
+        &_contact {
+            text-decoration: none;
+            padding-left: 36px;
+            border-left: 1px solid $bgrey;
+            color: $black;
+            font-weight: 500;
+        }
     }
 }
