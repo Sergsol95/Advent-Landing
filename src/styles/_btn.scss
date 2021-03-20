@@ -15,15 +15,27 @@
     &_start {
         min-width: 23.5rem;
 
+        @media all and (max-width:900px) {
+            font-size: 1.8rem;
+            min-width: 18rem;
+            align-items: center;
+        }
+
     }
 
     &_form {
         font-size: 2rem;
         padding: 1.2rem 2.1rem;
+
+        @media all and (max-width:900px) {
+            font-size: 1.6rem;
+        }
+
     }
 
     &_weight_semi-bold{
         font-weight: 500;
+
     }
 
 }
