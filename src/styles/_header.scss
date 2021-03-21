@@ -1,27 +1,54 @@
 .header {
     margin: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 3rem 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 
 
-    &__link {
-        text-decoration: none;
-        margin-right: 36px;
-        color: $black;
-
-
-
+    @media all and (max-width:1220px) {
+        padding: 3.2rem 3.2rem 5rem 3.2rem;
     }
 
-    &__contact {
+    @media all and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    &__nav {
+
+        @media all and (max-width: 600px) {
+            margin-top: 2rem;
+        }
+    }
+
+    &__link {
         text-decoration: none;
-        padding-left: 36px;
-        border-left: 1px solid $bgrey;
         color: $black;
-        font-weight: 500;
+        font-size: 1.6rem;
+
+        &:not(:last-child) {
+            margin-right: 3.6rem;
+
+            @media all and (max-width:600px) {
+                margin-right: 1.6rem;;
+            }
+        }
+
+        @media all and (max-width:600px) {
+            font-size: 1.3rem;
+        }
+
+        &_contact {
+            text-decoration: none;
+            padding-left: 36px;
+            border-left: 1px solid $bgrey;
+            color: $black;
+            font-weight: 500;
+
+            @media all and (max-width:600px) {
+                padding-left: 1.6rem;
+            }
+        }
     }
 }

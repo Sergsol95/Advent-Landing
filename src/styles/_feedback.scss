@@ -1,9 +1,17 @@
 .feedback {
     display: flex;
     justify-content: center;
-    padding: 14.2rem 0;
+    padding: 15rem 0;
     width: 100%;
     align-items: center;
+
+    @media all and (max-width:1200px) {
+        padding: 3.2rem 3.2rem 5rem 3.2rem;
+    }
+
+    @media all and (max-width:900px) {
+        flex-direction: column-reverse;
+    }
 
     &__info {
         max-width: 56rem;
@@ -19,17 +27,35 @@
         font-weight: bold;
         font-size: 3.6rem;
         margin-bottom: 1.5rem;
+
+        @media all and (max-width:900px) {
+            font-size: 2.4rem;
+            text-align: center;
+        }
     }
 
     &__text {
         margin: 0;
         font-size: 2rem;
         color: $grey;
+
+        @media all and (max-width:900px) {
+            font-size: 1.5rem;
+        }
     }
 
     &__img {
         position: relative;
         left: 8.5rem;
+        height: 35.1rem;
+        width: 57.7rem;
+
+        @media all and (max-width:900px) {
+            width: 32rem;
+            height: 32rem;
+            left: 0;
+            margin: 0;
+        }
     }
 }
 
@@ -49,6 +75,16 @@
 
         &::placeholder {
             color: $grey;
+            font-weight: 300;
+            font-size: 2rem;
+            padding: 1.2rem 1.5rem;
+            margin-right: 1rem;
+            min-height: 5.1rem;
+            display: flex;
+
+            @media all and (max-width:900px) {
+                font-size: 1.6rem;
+            }
         }
     }
 }
