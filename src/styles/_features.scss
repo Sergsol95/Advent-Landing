@@ -8,13 +8,9 @@
     align-items: center;
 
     @media all and (max-width:1200px) {
-        padding: 3.2rem;
-        padding-bottom: 5rem;
+        padding: 3.2rem 3.2rem 5rem 3.2rem;
     }
 
-    @media all and (max-width:650px) {
-        
-    }
 
     &__title {
         text-align: center;
@@ -72,8 +68,7 @@
             margin-right: 8rem;
 
             @media all and (max-width:650px) {
-                margin: 0;
-                margin-bottom: 2rem;
+                margin: 0 0 2rem;
             }
         }
 

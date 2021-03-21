@@ -6,8 +6,7 @@
     align-items: center;
 
     @media all and (max-width:1200px) {
-        padding: 3.2rem;
-        padding-bottom: 5rem;
+        padding: 3.2rem 3.2rem 5rem 3.2rem;
     }
 
     @media all and (max-width:900px) {
@@ -48,6 +47,8 @@
     &__img {
         position: relative;
         left: 8.5rem;
+        height: 35.1rem;
+        width: 57.7rem;
 
         @media all and (max-width:900px) {
             width: 32rem;
