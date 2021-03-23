@@ -5,10 +5,17 @@
     width: 100%;
     align-items: center;
 
+    @media all and (max-width:980px) {
+        padding: 2rem;
+    }
+
     @media all and (max-width:800px) {
         flex-direction: column;
-        padding: 3.2rem;
-        padding-bottom: 5rem;
+        padding: 3.2rem 3.2rem 4rem;
+    }
+
+    @media all and (max-width: 400px) {
+        padding: 2rem 2rem 3.5rem;
     }
 
     &__img {
@@ -18,11 +25,21 @@
         height: 42.2rem;
         width: 45.1rem;
 
+        @media all and (max-width:980px) {
+            width: 33rem;
+            height: auto;
+        }
+
         @media all and (max-width:800px) {
             width: 32rem;
-            height: 32rem;
+            height: auto;
             left: 0;
             margin: 0;
+        }
+
+        @media all and (max-width: 400px) {
+            width: 23rem;
+            height: auto;
         }
     }
 
@@ -37,6 +54,10 @@
         font-size: 3.6rem;
         margin-bottom: 0.8rem;
 
+        @media all and (max-width:980px) {
+            font-size: 2.8rem;
+        }
+
         @media all and (max-width:800px) {
             font-size: 2rem;
             text-align: center;    
@@ -47,6 +68,10 @@
     &__text {
         margin: 0;
         font-size: 2rem;
+
+        @media all and (max-width:980px) {
+            font-size: 1.6rem;
+        }
 
         @media all and (max-width:800px) {
             font-size: 1.4rem;

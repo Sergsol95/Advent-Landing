@@ -11,6 +11,14 @@
         padding: 3.2rem 3.2rem 5rem 3.2rem;
     }
 
+    @media all and (max-width:980px) {
+        padding: 3rem;
+    }
+
+    @media all and (max-width: 400px) {
+        padding: 2rem 2rem 3.5rem;
+    }
+
 
     &__title {
         text-align: center;
@@ -22,8 +30,13 @@
         max-width: 90rem;
         width: 100%;
 
+        @media all and (max-width:980px) {
+            font-size: 3rem;
+        }
+
         @media all and (max-width:650px) {
             font-size: 2.5rem;
+            margin-bottom: 2.5rem;
         }
 
         &::after {
@@ -33,6 +46,10 @@
             width: 6rem;
             padding-top: 4.8rem;
             border-bottom: 2px solid $orange;
+
+            @media all and (max-width:650px) {
+                padding-top: 2.5rem;
+            }
         }
     }
 
@@ -52,6 +69,10 @@
         margin: 0;
         font-size: 1.8rem;
         margin-top: 0.4rem;
+
+        @media all and (max-width:980px) {
+            font-size: 1.4rem;
+        }
 
         @media all and (max-width:650px) {
             font-size: 1.4rem;
@@ -76,17 +97,24 @@
 
     &__item {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+
     }
 
     &__item-img {
         margin-right: 2.5rem;
+        position: relative;
+        top: 0.5rem;
     }
 
     &__item-title {
         margin: 0;
         font-weight: bold;
         font-size: 2.6rem;
+
+        @media all and (max-width:980px) {
+            font-size: 2.2rem;
+        }
 
         @media all and (max-width:650px) {
             font-size: 2rem;

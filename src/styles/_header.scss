@@ -15,6 +15,10 @@
         flex-direction: column;
     }
 
+    @media all and (max-width: 500px) {
+        padding: 2rem 2rem 3.5rem;
+    }
+
     &__nav {
 
         @media all and (max-width: 600px) {
