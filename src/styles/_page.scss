@@ -5,4 +5,11 @@
     width: 100%;
     max-width: 116rem;
 
+    @media all and (max-width:1220px) {
+        padding: 0 2rem;
+    }
+
+    @media all and (max-width:350px) {
+        padding: 0 1rem;
+    }
 }
