@@ -6,7 +6,11 @@
     flex-direction: column;
 
     @media all and (max-width:1220px) {
-        padding:  3.2rem 3.2rem 4rem 3.2rem;
+        padding:  3.2rem 0;
+    }
+
+    @media all and (max-width: 500px) {
+        padding: 2.5rem 0;
     }
 
 
@@ -35,13 +39,22 @@
         color: $black;
         font-size: 1.6rem;
 
+        @media all and (max-width: 800px) {
+            margin-right: 2rem;
+        }
+
         &:not(:last-child) {
             margin-right: 4.1rem;
 
-            @media all and (max-width: 600px) {
-                margin: 0 0 3rem;
+            @media all and (max-width: 318px) {
+                margin: 1rem 1rem 3rem;
+            }
+
+            @media all and (max-width: 260px) {
+                margin: 0;
             }
         }
+
 
     }
 
