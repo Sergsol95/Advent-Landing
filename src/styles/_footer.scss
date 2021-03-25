@@ -25,6 +25,10 @@
         @media all and (max-width: 600px) {
             flex-direction: column;
         }
+
+        @media all and (max-width: 400px) {
+            padding-bottom: 1rem;
+        }
     }
 
     &__nav {
@@ -68,6 +72,10 @@
         @media all and (max-width: 600px) {
             flex-direction: column-reverse;
             margin-top: 2rem;
+        }
+
+        @media all and (max-width: 400px) {
+            margin-top: 1rem;
         }
     }
 
