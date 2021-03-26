@@ -16,14 +16,15 @@
         min-width: 23.5rem;
         font-size: 2.4rem;
 
-        @media all and (max-width:900px) {
+
+        @media all and (max-width:1000px) {
+            font-size: 1.8rem;
             min-width: 20rem;
+            align-items: center;
         }
 
-        @media all and (max-width:900px) {
-            font-size: 1.8rem;
-            min-width: 18rem;
-            align-items: center;
+        @media all and (max-width:800px) {
+            font-size: 1.5rem;
         }
 
     }

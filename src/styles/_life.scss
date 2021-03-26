@@ -24,16 +24,21 @@
         height: 42.2rem;
         width: 45.1rem;
 
+        @media all and (max-width:1220px) {
+            left: 0;
+        }
+
+
         @media all and (max-width:980px) {
             width: 33rem;
             height: auto;
-            left: 0;
         }
 
         @media all and (max-width:800px) {
             width: 32rem;
             height: auto;
             margin: 0;
+            
         }
 
         @media all and (max-width: 400px) {
@@ -83,6 +88,7 @@
 
         @media all and (max-width:800px) {
             font-size: 1.4rem;
+            text-align: center;
         }
 
         @media all and (max-width:340px) {
